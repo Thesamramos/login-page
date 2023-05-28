@@ -82,8 +82,12 @@
     box-sizing: border-box;
 }
 
-.textfield input::placeholder {
+.textfield input::placeholder, span {
     color: #f0ffff94;
+}
+
+a {
+    color: #00ff88;
 }
 
 .textfield label {
@@ -118,12 +122,8 @@
         flex-direction: column;
     }
 
-    .left-login h1 {
+    .left-login h1, .left-login img {
         display: none;
-    }
-
-    .left-login img {
-        width: 50vw;
     }
 
     .left-login, .right-login {
